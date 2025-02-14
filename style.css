@@ -1,0 +1,126 @@
+* {
+   background: rgb(205, 177, 50);
+}
+
+
+.top-name {
+    height: 150px;
+    font-size: 50px;
+    color: blue;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    font-style: oblique;
+    border-radius: 20px;
+  
+}
+.logo {
+    background-image: url(../../Downloads/Screenshot_20250210-103745.png);
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.about {
+    margin-top: 80px;
+    color: black;
+    display: flex;
+    font-size: 25px;
+  
+}
+.service {
+    height: 1000px;
+    margin-top: 80px;
+    color: black;
+    display: flex;
+    font-size: 20px;
+}
+
+.pic {
+    background-color: none;
+    display: flex;
+  }  
+
+.img { 
+   background-size: cover;
+   display: flex;  
+   background-image:url(../../Downloads/image.png);
+    width: 60%;
+   border-radius: 10px;
+   margin-top: 80px;
+   height: 1200px;
+}
+@media screen and  (max-width:600px ) {
+    img {
+        width: 50px;
+    }
+}
+.contact{
+    font-size: 25px;
+    margin: 80px;
+    
+}
+@media (max-width:800px) {
+body {
+    font-size: 0.85rem;
+}
+}
+
+
+
+.call-button {
+    position:fixed;
+    bottom: 20px;
+    /* right: 20px; */
+    background-color: #25D366;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align:center;
+    text-decoration: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.call-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* موبائل کے لیے سائز چھوٹا کریں */
+@media screen and (max-width: 600px) {
+    .call-button {
+        font-size: 20px;
+        padding: 12px 15px;
+    }
+}
+
+
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+     z-index: 1000; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Mobile View کے لیے */
+@media screen and (max-width: 600px) {
+    .whatsapp-button img {
+        width: 40px;
+    }
+}
